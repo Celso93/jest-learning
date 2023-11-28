@@ -25,7 +25,26 @@ F.I.R.S.T principles
     Thorough             [All path/case/scenarios][Very difficult]
         Happy cases, bad path, edge case;
         Large values
-        100% code coverage - not a great indicator
+        100% code coverage - not a great indicator [The code runner only tracks code calls, edge cases should also be tested]
+
+Test Properties and aliases:
+    Prop:
+        only        [will only run this test]
+        skip        [will pass this test]
+        todo        [make a skeleton of you test]
+        concurrent  [this you have to check the documentation]
+    aliases
+        it          []
+        test        [equal of it] 
+        xit         [will skip the test]
+
+watchmode   [you have to add to you command line runner --watch]
+
+Debug
+https://github.com/microsoft/vscode-recipes/tree/main/debugging-jest-tests
+
+istanbul : removing a part of code to remove from code coverage
+/* instabul ignore next */
 
 Illustration
     A tester walks into a bar
