@@ -1,10 +1,11 @@
 {
   "name": "jest",
   "version": "1.0.0",
-  "description": "JEST     - Javascript/Typescript testing framework (Develop by facebook)     - Test runner     - Global functions (describe, test, expect)     - Assertions (set of matchers)",
+  "description": "JEST with typescript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testwatch": "jest --watch"
   },
   "keywords": [],
   "author": "",
